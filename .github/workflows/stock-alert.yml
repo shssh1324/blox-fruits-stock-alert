@@ -3,7 +3,8 @@ name: Blox Fruits Stock Alert
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,17,27,37,47,57 * * * *"
+    - cron: "6,16,26,36,46,56 * * * *"
+      timezone: "Asia/Seoul"
 
 permissions:
   contents: write
