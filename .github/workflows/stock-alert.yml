@@ -2,8 +2,8 @@ name: Blox Fruits Stock Alert
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/10 * * * *"
+  repository_dispatch:
+    types: [stock_check]
 
 permissions:
   contents: write
